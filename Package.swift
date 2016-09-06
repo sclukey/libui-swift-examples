@@ -3,6 +3,6 @@ import PackageDescription
 let package = Package(
     name: "swift-ui-examples",
 	dependencies: [
-		.Package(url: "../ui", Version(0,3,1)),
+		.Package(url: "https://github.com/sclukey/libui-swift.git", majorVersion:1),
 	]
 )
